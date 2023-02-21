@@ -1,0 +1,65 @@
+html, body {
+    margin: 0;
+}
+body {
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    width: 1200px;
+    display: flex;
+    margin: 0 auto;
+    background-color: aquamarine;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 85%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.menu {
+    width: 15%;
+    background-color: rgb(255, 208, 208);
+    padding: 10px 20px 0px;
+}
+.header {
+    background-color: rgb(254, 231, 231);
+    min-height: 150px;
+}
+.content {
+    background-color: white;
+    min-height: 300px;
+    padding: 20px;
+    
+}
+.footer {
+    background-color: rgb(254, 231, 231);
+    min-height: 150px;
+    font-size: large;
+}
+table {
+    border: solid 1px red;
+    
+}
+table thead th {
+    background-color: rgb(190, 99, 99);
+    color: rgb(255, 235, 235);
+}
+table tbody {
+    color: rgb(200, 39, 31);
+}
+table tbody tr:nth-child(even) {
+    background-color: rgb(255, 235, 235);
+}
+table tr:hover td {
+    background-color: rgb(226, 229, 232);
+}
+form {
+    color: rgb(200, 39, 31);
+}
+.adjust-line-height {
+    line-height: 2em;
+}
